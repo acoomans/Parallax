@@ -24,6 +24,9 @@ If you want the parallax view to refocus slowly and automatically:
 
     parallaxView.refocusParallax = YES;
     
+## Screenshot
+
+![screenshots](https://raw.github.com/acoomans/Parallax/master/ParallaxDemo/parallax.gif)
 
 ## Bugs
 
