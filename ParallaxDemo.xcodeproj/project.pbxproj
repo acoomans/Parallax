@@ -21,6 +21,7 @@
 		512C18AF176739D10023018A /* ACViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512C18AD176739D10023018A /* ACViewController.xib */; };
 		512C18B817673BC70023018A /* ACParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 512C18B717673BC70023018A /* ACParallaxView.m */; };
 		512C18BA17673FEB0023018A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512C18B917673FEB0023018A /* CoreMotion.framework */; };
+		5165417F176E208F0046B083 /* parallax.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5165417E176E208F0046B083 /* parallax.gif */; };
 		517925ED176CA7CE000FF953 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517925EC176CA7CE000FF953 /* QuartzCore.framework */; };
 		517925F0176CAB7E000FF953 /* ACAttitude.m in Sources */ = {isa = PBXBuildFile; fileRef = 517925EF176CAB7E000FF953 /* ACAttitude.m */; };
 /* End PBXBuildFile section */
@@ -47,6 +48,7 @@
 		512C18B617673BC70023018A /* ACParallaxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACParallaxView.h; sourceTree = "<group>"; };
 		512C18B717673BC70023018A /* ACParallaxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACParallaxView.m; sourceTree = "<group>"; };
 		512C18B917673FEB0023018A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		5165417E176E208F0046B083 /* parallax.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = parallax.gif; sourceTree = "<group>"; };
 		517925EC176CA7CE000FF953 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		517925EE176CAB7E000FF953 /* ACAttitude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACAttitude.h; sourceTree = "<group>"; };
 		517925EF176CAB7E000FF953 /* ACAttitude.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACAttitude.m; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				512C18AA176739D10023018A /* ACViewController.h */,
 				512C18AB176739D10023018A /* ACViewController.m */,
 				512C18AD176739D10023018A /* ACViewController.xib */,
+				5165417E176E208F0046B083 /* parallax.gif */,
 				51289DA8176E11500097DA69 /* image01-768x1024.png */,
 				512C1899176739D10023018A /* Supporting Files */,
 			);
@@ -196,6 +199,7 @@
 				512C18A9176739D10023018A /* Default-568h@2x.png in Resources */,
 				512C18AF176739D10023018A /* ACViewController.xib in Resources */,
 				51289DA9176E11500097DA69 /* image01-768x1024.png in Resources */,
+				5165417F176E208F0046B083 /* parallax.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
