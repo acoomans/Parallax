@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = 'NAModalSheet'
+  s.name = 'Parallax'
   s.version = '0.0.1'
   s.license = 'MIT'
   s.summary = 'iOS library that reproduces the parallax effect of the iOS7 home screen.'
@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   
   s.authors = { 'Arnaud Coomans' => 'arnaud.coomans@gmail.com' }
   
+  s.frameworks = 'CoreMotion', 'QuartzCore'
   s.source_files = 'Parallax/*.{h,m}'
   s.source = { :git => 'https://github.com/acoomans/Parallax.git', :tag => '0.0.1' }  
 end
