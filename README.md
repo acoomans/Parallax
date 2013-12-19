@@ -2,6 +2,10 @@
 
 Parallax is an iOS library that reproduces the parallax effect of the iOS7 home screen.
 
+[![Build Status](https://api.travis-ci.org/acoomans/Parallax.png)](https://api.travis-ci.org/acoomans/Parallax.png)
+[![Cocoapods](https://cocoapod-badges.herokuapp.com/v/Parallax/badge.png)](http://beta.cocoapods.org/?q=on%3Aios%20name%3Aparallax%2A)
+[![Cocoapods](https://cocoapod-badges.herokuapp.com/p/Parallax/badge.png)](http://beta.cocoapods.org/?q=on%3Aios%20name%3Aparallax%2A)
+
 ## Dependencies
 
 - QuartzCore
@@ -24,6 +28,23 @@ If you want the parallax view to refocus slowly and automatically:
 
     parallaxView.refocusParallax = YES;
     
+## Install with CocoaPods
+
+Use [CocoaPods](http://cocoapods.org) add Parallax to your project.
+
+* Add a pod entry for Parallax to your Podfile 
+
+```
+pod 'Parallax', '~> 0.0.1'
+```
+
+* Install the pod(s) by running:
+
+```
+pod install
+```
+
+
 ## Screenshot
 
 ![screenshots](https://raw.github.com/acoomans/Parallax/master/ParallaxDemo/parallax.gif)
