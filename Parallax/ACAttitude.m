@@ -7,6 +7,7 @@
 //
 
 #import "ACAttitude.h"
+#import <float.h>
 
 ACAttitude const ACAttitudeZero = (ACAttitude){.pitch = 0, .roll = 0, .yaw = 0};
 ACAttitude const ACAttitudeInvalid = (ACAttitude){.pitch = DBL_MAX, .roll = DBL_MAX, .yaw = DBL_MAX};
