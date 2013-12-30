@@ -55,6 +55,8 @@ pod install
 - Some implementations details missing (see TODOs)
 
 
-## Credits
+## Thanks
 
 [San Francisco Bridge by Jeff Gunn (Creative Commons)](http://www.flickr.com/photos/jeffgunn/6663234085/)
+
+Cocoapods specs by [Bruno Furtado](https://github.com/Bruno-Furtado)
