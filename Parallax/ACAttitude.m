@@ -9,6 +9,15 @@
 #import "ACAttitude.h"
 #import <float.h>
 
+// NOTE: fixes a bug with float.h not being correctly imported on first build (xcode bug?)
+// This bug happens only on first build attempt.
+// Subsequent attempts work, the library probably being cached by xcode.
+// To reproduce the bug, remove the following lines and clean temporary files in /var/folders/*
+#ifndef DBL_MAX
+#define DBL_MAX __DBL_MAX__
+#endif
+
+
 ACAttitude const ACAttitudeZero = (ACAttitude){.pitch = 0, .roll = 0, .yaw = 0};
 ACAttitude const ACAttitudeInvalid = (ACAttitude){.pitch = DBL_MAX, .roll = DBL_MAX, .yaw = DBL_MAX};
 
