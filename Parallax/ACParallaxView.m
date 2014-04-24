@@ -115,7 +115,21 @@ static CMMotionManager *sharedMotionManager;
                  
                  self.relativeAttitude = attitude;
                  
-                 //TODO: fix crazy values, especially when changing pitch
+                 if (attitude.pitch>1.0f) {
+                     attitude.pitch = 1.0f;
+                 }
+                 
+                 if (attitude.pitch<=-1.0f) {
+                     attitude.pitch = -1.0f;
+                 }
+                 
+                 if (attitude.roll>1.0f) {
+                     attitude.roll = 1.0f;
+                 }
+                 
+                 if (attitude.roll<=-1.0f) {
+                     attitude.roll = -1.0f;
+                 }
                  
                  CATransform3D transform = CATransform3DIdentity;
 
